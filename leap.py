@@ -2,9 +2,9 @@ import sys
 
 def leapyear(year):
     if (year % 400 == 0):
-        print("leap year")
+        print("not leap year")
     else:
-        print("not a leap year")
+        print("leap year")
 
 if __name__ == "__main__":
     year = int(sys.argv[1])
