@@ -7,7 +7,7 @@ def leapyear(year):
         print("not a leap year")
 
 if __name__ == "__main__":
-    year = int(sys.argv[])
+    year = int(sys.argv[1])
     print(leapyear(year))
 
     
